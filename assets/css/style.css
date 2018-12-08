@@ -93,7 +93,7 @@ a:active {
 }
 
 .header2 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia';
 	color: #4aaaa5;
 	font-size: 25px;
 	font-weight: bold;
@@ -102,13 +102,12 @@ a:active {
 
 #profile-image {
 	float: left;
+	margin-right: 20px;
 }
 
 .text {
-/*	clear: both;*/
-/*	margin-left: 20px;*/
-/*	align-content: left;*/
-/*	padding-left: 20px;*/
+	font-family: 'Arial';
+	font-size: 16px;
 }
 
 .image {
