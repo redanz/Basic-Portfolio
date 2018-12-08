@@ -1,1 +1,172 @@
-style.css
+body {
+    background-color: #f1f1f1;
+}
+
+a:link {
+	text-decoration: none;
+	color: #777777;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #777777;
+}
+
+a:hover {
+  color: #777777;
+}
+
+a:active {
+  text-decoration: underline;
+	}
+
+.header {
+	background-color: #ffffff;
+	border-bottom: solid #cccccc 1px;
+	height: 60px;
+}
+
+.inner-header {
+	color: #777777;
+	padding: 0px;
+	height: 60px;
+	width: 960px;
+	margin: 0px auto;
+}
+
+.logo {
+	background-color: #4aaaa5;
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	width: 140px;
+	height: 40px;
+	text-align: center;
+	padding-top: 20px;
+	float: left;
+}
+
+.menu {
+	text-decoration: none;
+	color: #777777;
+	width: 196px;
+	height: ;
+	float: right;
+	padding-top: 20px;
+/*	margin: 0px;*/
+}
+
+.list {
+	font-family: 'Arial';
+	list-style-type: none;
+	padding: 0px;
+	display: inline;
+	vertical-align: baseline;
+	margin: 5px;
+}
+
+#list-middle {
+	border-right: solid #cccccc 1px;
+	border-left: solid #cccccc 1px;
+
+	font-family: 'Arial';
+	list-style-type: none;
+	padding: 0px;
+	display: inline;
+	vertical-align: baseline;
+	padding: 5px;
+}
+
+.container {
+	clear: both;
+	background-color: #ffffff;
+	margin: 40px auto;
+	width: 900px;
+	height: 450px;
+	border: solid 1px;
+	border-color: #dddddd;
+	text-align: left;
+	line-height: 1.5em;
+	color: #777777;
+	padding: 30px;
+	/*float: left;*/
+}
+
+.header2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+
+.text {
+	margin-left: 20px;
+	/*padding-left: 20px;*/
+}
+
+.input-bar {
+	width: 895px;
+}
+
+.message-box {
+	width: 895px;
+	height: 200px;
+	vertical-align: top;
+}
+
+.submit-button {
+	background-color: #4aaaa5;
+	color: white;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+}
+
+.image {
+
+}
+
+.footer {
+	background-color: #666666;
+	border-top: solid 3px;
+	border-top-color: #4aaaa5;
+	height: 20px;
+	text-align: center;
+	padding-top: 40px;
+	color: #777777;
+}
+
+
+
+/*
+1. Colors _Pro-tip: Use the [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) Chrome extension to find the colors used on web pages._
+   * Teal color (used for headings and backgrounds): `#4aaaa5`
+   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
+   * Main header background color: `#ffffff`
+   * Main header border color: `#cccccc`
+   * Footer background color: `#666666`
+   * Main content background color: `#ffffff`
+   * Main content border color: `#dddddd`
+
+2. Fonts:
+   * For heading fonts use `font-family: 'Georgia', Times, Times New Roman, serif;`.
+   * For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`.
+
+3. Profile Image Found on `index.html`:
+   * Use a picture of yourself.
+   * If you don't have a picture, you can grab a placeholder image from [LoremPixel](http://lorempixel.com/). Save the images to your `images` folder.
+
+4. Portfolio Images:
+   * Placeholder images can be found at [LoremPixel](http://lorempixel.com/).
+   * Save the images to your `images` folder.
+
+5. Background Images:
+   * The background pattern used was found on [Subtle Patterns](https://subtlepatterns.com/). You can browse through that site and find whichever pattern you like.
+
+6. Dimensions:
+   * The entire content and the main section content area is `960px` wide.
+   * Pro-tip: Use the [Page Ruler](https://chrome.google.com/webstore/detail/page-ruler/jlpkojjdgbllmedoapgfodplfhcbnbpn/related?hl=en) extension to measure the size of elements.
+
+   ![Recommended Dimensions](Images/Recommended-Dimensions.png)*/
