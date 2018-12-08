@@ -121,12 +121,14 @@ a:active {
 
 .input-bar {
 	width: 895px;
+	color: #777777;
 }
 
 .message-box {
 	width: 895px;
 	height: 200px;
 	vertical-align: top;
+	color: #777777;
 }
 
 .submit-button {
