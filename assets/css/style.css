@@ -53,7 +53,6 @@ a:active {
 	height: ;
 	float: right;
 	padding-top: 20px;
-/*	margin: 0px;*/
 }
 
 .list {
@@ -89,7 +88,7 @@ a:active {
 	line-height: 1.5em;
 	color: #777777;
 	padding: 30px;
-	/*float: left;*/
+	overflow: auto;
 }
 
 .header2 {
@@ -111,10 +110,15 @@ a:active {
 }
 
 .image {
-	border: solid 1px;
-	width: 200px;
-	height: 150px;
+	width: 350px;
+	height: 250px;
+}
+
+.image-container {
+	width: 350px;
+	height: 200px;
 	margin: 20px;
+	margin-bottom: 90px;
 	float: left;
 }
 
@@ -141,13 +145,17 @@ a:active {
 .image-label {
 	background-color: #4aaaa5;
 	color: white;
-	width: 200px;
+	width: 350px;
 	height: 40px;
 	text-align: center;
-/*	margin-top: 50px;*/
 	padding-top: 15px;
 	font-family: 'Georgia';
+	position: relative;
+	bottom: 80px;
+}
 
+.label {
+color: white;
 }
 
 
@@ -158,38 +166,5 @@ a:active {
 	height: 20px;
 	text-align: center;
 	padding-top: 40px;
-	color: #777777;
+	color: #f1f1f1;
 }
-
-
-
-/*
-1. Colors _Pro-tip: Use the [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) Chrome extension to find the colors used on web pages._
-   * Teal color (used for headings and backgrounds): `#4aaaa5`
-   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
-   * Main header background color: `#ffffff`
-   * Main header border color: `#cccccc`
-   * Footer background color: `#666666`
-   * Main content background color: `#ffffff`
-   * Main content border color: `#dddddd`
-
-2. Fonts:
-   * For heading fonts use `font-family: 'Georgia', Times, Times New Roman, serif;`.
-   * For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`.
-
-3. Profile Image Found on `index.html`:
-   * Use a picture of yourself.
-   * If you don't have a picture, you can grab a placeholder image from [LoremPixel](http://lorempixel.com/). Save the images to your `images` folder.
-
-4. Portfolio Images:
-   * Placeholder images can be found at [LoremPixel](http://lorempixel.com/).
-   * Save the images to your `images` folder.
-
-5. Background Images:
-   * The background pattern used was found on [Subtle Patterns](https://subtlepatterns.com/). You can browse through that site and find whichever pattern you like.
-
-6. Dimensions:
-   * The entire content and the main section content area is `960px` wide.
-   * Pro-tip: Use the [Page Ruler](https://chrome.google.com/webstore/detail/page-ruler/jlpkojjdgbllmedoapgfodplfhcbnbpn/related?hl=en) extension to measure the size of elements.
-
-   ![Recommended Dimensions](Images/Recommended-Dimensions.png)*/
