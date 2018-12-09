@@ -14,10 +14,12 @@ a:visited {
 
 a:hover {
   color: #777777;
+  text-decoration: none;
+  background-color: #f1f1f1;
 }
 
 a:active {
-  text-decoration: underline;
+  text-decoration: none;
 	}
 
 .header {
@@ -28,7 +30,6 @@ a:active {
 
 .inner-header {
 	color: #777777;
-	padding: 0px;
 	height: 60px;
 	width: 960px;
 	margin: 0px auto;
@@ -57,22 +58,15 @@ a:active {
 
 .list {
 	font-family: 'Arial';
-	list-style-type: none;
-	padding: 0px;
 	display: inline;
-	vertical-align: baseline;
 	margin: 5px;
 }
 
 #list-middle {
 	border-right: solid #cccccc 1px;
 	border-left: solid #cccccc 1px;
-
 	font-family: 'Arial';
-	list-style-type: none;
-	padding: 0px;
 	display: inline;
-	vertical-align: baseline;
 	padding: 5px;
 }
 
@@ -155,7 +149,7 @@ a:active {
 }
 
 .label {
-color: white;
+	color: white;
 }
 
 
