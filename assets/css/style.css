@@ -59,15 +59,7 @@ a:active {
 .list {
 	font-family: 'Arial';
 	display: inline;
-	margin: 5px;
-}
-
-#list-middle {
-	border-right: solid #cccccc 1px;
-	border-left: solid #cccccc 1px;
-	font-family: 'Arial';
-	display: inline;
-	padding: 5px;
+	padding: 1px;
 }
 
 .container {
