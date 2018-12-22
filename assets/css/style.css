@@ -74,7 +74,7 @@ body {
 
 .image {
 	width: 350px;
-	height: 250px;
+	height: auto;
 }
 
 .container {
